@@ -2,25 +2,25 @@
 
 1. Have python installed. We suggest using [pyenv](https://github.com/pyenv/pyenv)
 
-1. Create virtualenv.
+2. Create virtualenv.
 
 ```sh
 $ python -m venv venv
 ```
 
-2. Active virtualenv.
+3. Active virtualenv.
 
 ```sh
 source venv/bin/activate
 ```
 
-3. Install pip-tools.
+4. Install pip-tools.
 
 ```sh
 $ python -m pip install pip-tools
 ```
 
-4. Run pip-sync to download dependencies.
+5. Run pip-sync to download dependencies.
 
 ```
 $ pip-sync
